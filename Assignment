@@ -1,7 +1,6 @@
 1.usage of triggers?
 
-Triggers are used to maintain the referential integrity of data by changing the data in a systematic  way (fashion.)
-
+Triggers are used to maintain the referential integrity of data by changing the data in a systematic fashion.
 2.wrapper classes in java and their usages real time?
 
 Wrapper Class will convert primitive data types into objects.The objects are necessary if we want to modify the arguments passed into the method.
