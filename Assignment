@@ -1,0 +1,120 @@
+1.usage of triggers?
+
+Triggers are used to maintain the referential integrity of data by changing the data in a systematic  way (fashion.)
+
+2.wrapper classes in java and their usages real time?
+
+Wrapper Class will convert primitive data types into objects.The objects are necessary if we want to modify the arguments passed into the method.
+
+3.Difference b/w string buffer and string bulider.
+
+StringBuffer:StringBuffer is synchronized that is  thread safe. It means two threads can't call the methods of StringBuffer simultaneously.
+StringBuilder:StringBuilder is non-synchronized that is not thread safe. It means two threads can call the methods of StringBuilder simultaneously.
+
+4.Diff b/w List and Set Collection framwork
+
+List: List is an ordered sequence and it allows duplicate elements and  Elements can be accessed their position 
+Set: Set is an unordered sequence and it doesn’t allow duplicate elements.Position access to elements is not allowed.
+
+5. Diff b/w Checked and Unchecked Exceptions with examples
+
+Checked Exception: This  exceptions can  checked at compile time. If some code within a method throws a checked exception, then the method must either handle the exception or it must specify the exception using throws keyword
+Unchecked Exception: Unchecked exceptions occur at runtime and compiler does not check these types of exceptions.
+
+6.Diff b/w statement and prepared statements and color statement in terms of security.
+
+Statement is used to execute string-based SQL queries.
+PreparedStatement is used to execute parameterized SQL queries.
+
+CallableStatement in java is used to call stored procedure from java program. 
+Stored Procedures are group of statements that we compile in the database for some task.
+
+7.Diff b/w JQuery and JavaScript(purpose).
+
+JavaScript uses JIT[Just in Time Compiler] which is combination of interpreter and Compile and is written in C.
+
+JQuery Uses the resources that are provided by JavaScript to make things easier. It is a light-weight JavaScript library.
+
+8.Diff b/w Let and Var in Js.
+
+Let  can enhance our code readability and decreases the chance of programming error
+
+Var  is used to declare a variable in JavaScript. A variable declared with the var keyword is defined throughout the program.
+
+9.Diff b/w ID selector and Class Selector examples.
+
+id” is unique in a page and can only apply to at most one element,ID selector is a name preceded by a hash character (“#”). 
+class” selector can apply to multiple elements.a class selector is a name preceded by a full stop (“.”).
+
+10.Diff b/w procedure and functions.
+set of instructions which takes some input and performs certain tasks. In SQL, a function returns a value.
+Procedureis a set of instructions which takes input and performs certain task. In SQL, procedure does not return a value.
+
+11.Usages of generics in java
+Generics are used to store Specific type of Objects for type-safety purpose and perform Data Type Safe operations and memory management.
+
+12.Java-7 & 8 Features methods and classes?
+auto-boxing, generics, var-args, java annotations, enum, premain method , lambda expressions, functional interface, method references etc.
+
+13.Need of Statemanagement.
+
+State management refers to the management of the state of one or more user interface controls such as text fields, OK buttons, radio buttons, etc. in a graphical user interface. In this user interface programming technique, the state of one UI control depends on the state of other UI controls.
+
+14.JSP and JSTL Tags.
+
+JSP and JSTL tags
+The JavaServer Pages is a collection of useful JSP tags which encapsulates the core functionality common to many JSP applications.
+JSTL has structural tasks such as iteration and conditionals, tags for manipulating XML documents, internationalization tags, and SQL tags.
+
+15.MVc Represantational.
+
+Model–view–controller is a software design pattern commonly used for developing user interfaces that divide the related program 
+logic into (three) interconnected elements.
+
+16.Module Quolible in mvc
+
+The @Qualifier annotation is used to resolve the autowiring conflict, when there are multiple beans of same type.
+
+17.cost of shard in time of configuration
+
+Hibernate Shards is a framework that is designed to encapsulate and minimize this complexity by adding support for horizontal 
+partitioning on top of Hibernate Core. Simply put, we aim to provide a unified view of multiple databases via Hibernate.
+
+18.HTML5 & 6 features
+
+HTML 5 give us many existing features like vedio support and mobile optimized websites.It provide so many tags like <script>, <link> so on...
+HTML 6 gives some wounding express tags. In this we can directly put <container> or <wrraper> rather then using multiple id's.
+
+19.some of the selecotrs in css#
+
+CSS Element Selector.
+CSS Id Selector.
+CSS Class Selector.
+CSS Universal Selector.
+CSS Group Selector.
+
+JSP Controller acts as an interface between View and Model.
+
+20 why spring is so popular(advnatages)?
+
+Spring is one of the most popular open source framework for developing enterprise applications. It provides comprehensive infrastructure 
+support for developing Java based applications. Spring also enables the developer to create high performing, reusable, easily testable and
+ loose coupling enterprise Java application.
+
+21. what is IOC container.
+
+IoC container is responsible to instantiate, configure and assemble the objects. The IoC container gets informations from the XML
+ file and works accordingly.
+
+22.spring standalone application , Scopes and spring Beans what is defualt scope of the spring bean
+
+Spring ApplicationContext is a central interface to provide configuration for an application. 
+ClassPathXmlApplicationContext is an implementation of the ApplicationContext that loads configuration definition from an XML file, 
+which is located on the classpath.
+
+Spring MVC controllers are singleton by default and any controller object variable/field will be shared across all the requests and sessions. 
+If the object variable should not be shared across requests, one can use @Scope("request") annotation above your controller class definition 
+to create instance per request.
+
+
+
